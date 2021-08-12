@@ -1,0 +1,12 @@
+module.exports = {
+    root: true,
+    extends: '@react-native-community',
+    parser: '@typescript-eslint/parser',
+    plugins: ['@typescript-eslint'],
+    rules: {
+        'prettier/prettier': 0,
+        'no-undef': 0,
+        'quotes': [2, 'single'],
+        'jsx-quotes': [2, 'prefer-single'],
+    },
+};
